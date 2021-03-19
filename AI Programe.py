@@ -92,12 +92,12 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H,%M,%S")
             speak(f"Sir,the time is {strTime}")
 
-        elif 'open code' in query:
-            codePath = '"C:\\Users\\maulik\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"'
+        elif 'open Application' in query:
+            codePath = '"Enter Your Application locatioon "'
             os.startfile(codePath)
 
-        elif 'open chrome' in query:
-            chromePath = 'C:\\Users\\maulik\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe'
+        elif 'open Application' in query:
+            chromePath = '"Enter Your Application locatioon"'
             os.startfile(chromePath)
 
         elif 'email to bhagirath' in query:
